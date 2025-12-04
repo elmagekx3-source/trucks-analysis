@@ -1,0 +1,44 @@
+This project analyzes operational and financial performance for a shipping & transportation company using Power BI.
+The goal is to understand revenue, profit, cost distribution, and performance trends across time periods and locations.
+The dashboard is fully interactive using slicers for seamless navigation across different dimensions.
+🛠 Tools Used
+Power BI Desktop
+Power Query (Data cleaning & transformations)
+DAX (KPIs, calculated measures)
+Excel / CSV datasets (optional)
+📊 Key Features
+1️⃣ KPI Cards
+The dashboard includes dynamic KPI cards for:
+Total Revenue
+Total Profit
+Total Cost
+Profit Margin
+These KPIs update instantly based on slicer selections.
+2️⃣ Interactive Slicers
+Slicers were added to improve user experience and easy dashboard navigation:
+Year
+Month
+City / Region
+Shipment Type
+Vehicle Type (if available)
+This allows the user to drill into performance for any time period or location.
+3️⃣ Time Series Analysis
+Charts show how financial metrics changed over time:
+Revenue vs Months
+Profit vs Years
+Cost over Time
+This helps identify seasonal behavior, growth patterns, and cost spikes.
+4️⃣ Geographic & Location Insights
+If the data includes locations, the dashboard provides:
+Revenue by City
+Profit by Region
+Cost distribution by area
+5️⃣ Data Cleaning & Modeling
+Using Power Query:
+Removed duplicates
+Handled missing values
+Standardized date formats
+Extracted date hierarchy (Year, Month, Quarter)
+Using DAX:
+Created dynamic measures (Revenue, Profit, Cost)
+Built YOY and MOM comparisons (optional)
